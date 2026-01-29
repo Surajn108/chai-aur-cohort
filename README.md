@@ -34,7 +34,7 @@
 
 ## Documentation
 
-- ### [Assignments : learn](./Assignments/README.md)
+- ### [Assignments : learn](./Assignments)
 
 - ### [Projects : apply](./Projects/README.md)
 
