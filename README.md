@@ -36,7 +36,7 @@
 
 - ### [Assignments : learn](./Assignments/README.md)
 
-- ### [Projects : apply](./projects/README.md)
+- ### [Projects : apply](./Projects/README.md)
 
 - ### [Blogs : showcase](./Blogs/README.md)
 </br>
