@@ -1,0 +1,64 @@
+:root{
+    --Prime_col : #13120a;
+    --Sec_col :#1b1813;
+}
+
+@font-face {
+    font-family: 'CursorGothic';
+    src: url('/fonts/cursorgothic.woff2') format('woff2'),
+         url('/fonts/cursorgothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }   
+
+*{
+    background-color: var(--Prime_col);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"CursorGothic","CursorGothic Fallback",system-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.navbar{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 1250px;
+    height: 52px;
+}
+
+
+.menu{
+    display:flex;
+    gap: 30px;
+}
+
+.buttons{
+    display:flex;
+    gap: 10px;  
+}
+
+.sign-in{
+    width: 70px;
+    height: 25px;
+    border-radius: 12px;
+    border: 0.5px solid #fff;
+    background-color: var(--Prime_col);
+    color: #fff;
+    cursor: pointer;
+}
+
+.download{
+    width: 80px;
+    height: 25px;
+    border-radius: 12px;
+    border: 0.5px solid #fff;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
