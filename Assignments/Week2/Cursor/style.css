@@ -62,3 +62,66 @@
     color: #000;
     cursor: pointer;
 }
+
+.downloadBig{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0.5px solid #fff;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.Features{
+  color: rgb(159, 165, 169);
+  margin-bottom: 5px;
+}
+
+.hero1{
+    background-color: var(--Sec_col);
+    border: 1px solid none  ;
+    border-radius: 5px;
+    margin-left:40px;
+    height: 815px;
+    width: 1200px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    gap:40px;
+    line-height: 25px;
+
+}
+.hero1-txt{
+    background-color: var(--Sec_col);
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+
+.hero1-img{
+    background-color: var(--Sec_col);
+    margin-top: 40px;
+    
+}
+
+img{
+    border-radius: 5px;
+}
+.hero1-txt-2{
+    background-color: var(--Sec_col);
+    color:#82817d ;
+}
+
+.hero1-txt-1{
+    background-color: var(--Sec_col);
+   
+}
+
