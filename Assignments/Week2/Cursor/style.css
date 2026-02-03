@@ -19,6 +19,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: 150;
     font-family:"CursorGothic","CursorGothic Fallback",system-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
@@ -65,7 +66,7 @@
 
 .downloadBig{
     margin-top: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     width: 220px;
     height: 40px;
     border-radius: 20px;
@@ -78,17 +79,62 @@
 .main{
     margin-top: 100px;
     margin-left: 20px;
+    font-weight: 100;
+}
+.main-txt{
+    font-weight: 100;
 }
 
-.Features{
+/* .Features{
   color: rgb(159, 165, 169);
   margin-bottom: 5px;
+} */
+
+
+
+.hero1-img{
+    margin-left: 20px;
+    height: 815px;
+    width: 1225px;
+    margin-bottom: 70px;
 }
 
-.hero1{
+.hero2{
+    margin-left: 20px;
+}
+.hero2-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.hero2-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 5px;
+   
+}
+
+.hero2-card{
+
+    border-radius: 8px;
+    background-color: #1b1813;
+    
+    height: 100px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+.hero3{
     background-color: var(--Sec_col);
     border: 1px solid none  ;
     border-radius: 5px;
+    margin-top: 100px;
     margin-left:40px;
     height: 815px;
     width: 1200px;
@@ -98,7 +144,7 @@
     line-height: 25px;
 
 }
-.hero1-txt{
+.hero3-txt{
     background-color: var(--Sec_col);
     width: 415px;
     display: flex;
@@ -106,7 +152,7 @@
     justify-content:center ;
 }
 
-.hero1-img{
+.hero3-img{
     background-color: var(--Sec_col);
     margin-top: 40px;
     
@@ -115,13 +161,18 @@
 img{
     border-radius: 5px;
 }
-.hero1-txt-2{
+.hero3-txt-2{
     background-color: var(--Sec_col);
     color:#82817d ;
 }
 
-.hero1-txt-1{
+.hero3-txt-1{
     background-color: var(--Sec_col);
-   
+}
+.hero3-txt-3{
+    margin-top: 10px;
+    color: #f54e00;
+    background-color: var(--Sec_col);
+    font-size: 16px;
 }
 
