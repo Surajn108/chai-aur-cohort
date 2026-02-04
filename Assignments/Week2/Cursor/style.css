@@ -249,7 +249,7 @@ p {
 .hero8-card {
   border-radius: 8px;
   background-color: var(--Sec_col);
-  height: 120px;
+  height: 150px;
   width: 317px;
   line-height: 30px;
   padding: 15px 20px 20px 10px;
@@ -258,4 +258,52 @@ p {
 .hero8-txt-red {
   margin-top: 20px;
   color: #f54e00;
+}
+
+.hero9 {
+  display: flex;
+  padding: 70px 0 0 20px;
+}
+.hero9-title {
+  font-size: 16px;
+  width: 325px;
+}
+
+.hero9-cards {
+  background-color: var(--Sec_col);
+  gap: 10px;
+}
+.hero9-card {
+  border: 1px solid #201f19;
+  border-radius: 8px;
+  background-color: #201f19 !important ;
+  line-height: 20px;
+  padding: 10px 30px 10px 10px;
+  margin-bottom: 10px;
+}
+.hero9-txt0 {
+  background-color: #201f19;
+}
+.hero9-txt {
+  background-color: #201f19;
+  color: #82817d;
+}
+
+.hero9-txt-red {
+  background-color: var(--Sec_col);
+  margin-top: 20px;
+  color: #f54e00;
+  padding-bottom: 90px;
+}
+
+.try {
+  padding: 134px 20px 134px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.try-txt {
+  font-size: 72px;
 }
