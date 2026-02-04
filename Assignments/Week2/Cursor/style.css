@@ -12,7 +12,7 @@
   font-display: swap;
 }
 
-body{
+body {
   background-color: var(--Prime_col);
   color: #fff;
   font-family: Arial, sans-serif;
@@ -20,6 +20,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-weight: 150;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-family: "CursorGothic", "CursorGothic Fallback", system-ui,
     Helvetica Neue, Helvetica, Arial, sans-serif;
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
@@ -33,6 +34,7 @@ body{
   width: 1250px;
   height: 52px;
   position: sticky;
+  z-index: 0;
   top: 0;
   width: 100%;
   background-color: var(--Prime_col);
@@ -42,7 +44,7 @@ body{
   display: flex;
   gap: 30px;
 }
-.menu p{
+.menu p {
   display: flex;
   gap: 30px;
   background-color: var(--Prime_col);
@@ -64,6 +66,10 @@ body{
   cursor: pointer;
 }
 
+.sign-in:hover{
+  background-color: #1b1813;
+}
+
 .download {
   width: 80px;
   height: 25px;
@@ -72,6 +78,10 @@ body{
   background-color: #fff;
   color: #000;
   cursor: pointer;
+}
+
+.download:hover , .downloadBig:hover{
+  background-color: #edecec;
 }
 
 .downloadBig {
@@ -129,12 +139,11 @@ body{
   background-color: #1b1813;
 
   height: 100px;
-  width: 125px;
+  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .hero3 {
   background-color: var(--Sec_col);
@@ -185,48 +194,72 @@ p {
   font-size: 16px;
 }
 
-/* Style Remaining  */
-
-.cards {
-  display: grid;
-  margin: 50px 0 0 20px;
-  border-radius: 8px;
-  grid-template-rows: 225px 225px;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-.hero6-card {
-  background-color: var(--Sec_col) !important;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-
-.hero6-txt {
-  margin-top: 90px;
-}
-
-.card-content-foot img {
-  margin: 90px 0 10px 15px;
-  height: 40px;
+.hero6 h2 {
+  margin-top: 120px;
+  font-size: 36px;
+  font-weight: normal;
   display: flex;
   justify-content: center;
 }
-.card-content-foot {
-  background-color: var(--Sec_col) !important;
-  display: flex;
-  gap: 10px;
-  align-items: self-end;
-  margin-bottom: 10px;
+.testimonials {
+  padding: 50px 60px;
 }
 
-/* Hero 7 start  */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
 
-.hero7 {
-  margin: 200px 0 0 20px;
+.card {
+  background-color: var(--Sec_col);
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 278px;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #e6e6e6;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.author h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.author span {
+  font-size: 12px;
+  color: #9a9a9a;
+}
+
+.hero7 h2 {
+  margin: 10px 0 0 20px;
+}
+.lightfont {
+  font-weight: lighter;
 }
 
 .hero7-cards {
-  padding-top: 40px;
+  padding-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
@@ -269,14 +302,24 @@ p {
   color: #f54e00;
 }
 
+.btn-join{
+  height: 43px;
+  width: 114px;
+}
+
 .hero9 {
+  z-index: -1;
+  position: relative;
   display: flex;
+  align-items: flex-start; 
   padding: 70px 0 0 20px;
+  
 }
 .hero9-title {
-  font-size: 16px;
+  position: sticky;
+  top: 70px;
   width: 325px;
-  top : 0;
+  font-size: 16px;
 }
 
 .hero9-cards {
@@ -307,7 +350,7 @@ p {
 }
 
 .try {
-  padding: 134px 20px 134px 20px;
+  padding: 134px 20px 80px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -318,72 +361,57 @@ p {
   font-size: 72px;
 }
 
-.footer{
-  padding : 67px 20px 30px 20px;
+.footer {
+  padding: 50px 20px 30px 10px;
   background-color: var(--Sec_col);
   display: flex;
   justify-content: space-evenly;
-  
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}   
+}
+
+.footer p {
+  font-size: smaller;
+}
 
 .footDiv {
-  display: flex ;
+  display: flex;
   flex-direction: column;
-  
 }
-.div-btn{
-  border: 1px solid #26251f ;
+.div-btn {
+  border: 1px solid #26251f;
   background-color: #26251f;
   border-radius: 12px;
   height: 25px;
 }
-.foot-txt{
+.foot-txt {
   color: #999894;
 }
 .foot-btn1 {
-  border: 1px solid #26251f ;
+  border: 1px solid #26251f;
   background-color: #26251f;
-  width:30px;
+  width: 30px;
 }
-.last{
+.last {
   display: flex;
   gap: 20px;
-  justify-content:flex-end
+  justify-content: flex-end;
 }
 
-.lang{
-  border: 1px solid #26251f ;
+.lang {
+  border: 1px solid #26251f;
   border-radius: 12px;
   color: #fff;
   background-color: #26251f;
-  width:100px;
+  width: 100px;
   height: 25px;
-  
 }
 
-.foot1{
+.foot1 {
   justify-content: space-between;
-  padding : 67px 20px 30px 20px;
+  padding: 67px 20px 30px 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
