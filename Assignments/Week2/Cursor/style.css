@@ -12,7 +12,7 @@
   font-display: swap;
 }
 
-* {
+body{
   background-color: var(--Prime_col);
   color: #fff;
   font-family: Arial, sans-serif;
@@ -29,17 +29,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  /* padding: 10px 10px 0 10px; */
   width: 1250px;
   height: 52px;
   position: sticky;
   top: 0;
   width: 100%;
+  background-color: var(--Prime_col);
 }
 
 .menu {
   display: flex;
   gap: 30px;
+}
+.menu p{
+  display: flex;
+  gap: 30px;
+  background-color: var(--Prime_col);
+  font-size: 14px;
 }
 
 .buttons {
@@ -108,6 +115,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  background-color: var(--Prime_col);
 }
 
 .hero2-cards {
@@ -126,6 +134,7 @@
   justify-content: center;
   align-items: center;
 }
+
 
 .hero3 {
   background-color: var(--Sec_col);
@@ -267,6 +276,7 @@ p {
 .hero9-title {
   font-size: 16px;
   width: 325px;
+  top : 0;
 }
 
 .hero9-cards {
@@ -307,3 +317,73 @@ p {
 .try-txt {
   font-size: 72px;
 }
+
+.footer{
+  padding : 67px 20px 30px 20px;
+  background-color: var(--Sec_col);
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}   
+
+.footDiv {
+  display: flex ;
+  flex-direction: column;
+  
+}
+.div-btn{
+  border: 1px solid #26251f ;
+  background-color: #26251f;
+  border-radius: 12px;
+  height: 25px;
+}
+.foot-txt{
+  color: #999894;
+}
+.foot-btn1 {
+  border: 1px solid #26251f ;
+  background-color: #26251f;
+  width:30px;
+}
+.last{
+  display: flex;
+  gap: 20px;
+  justify-content:flex-end
+}
+
+.lang{
+  border: 1px solid #26251f ;
+  border-radius: 12px;
+  color: #fff;
+  background-color: #26251f;
+  width:100px;
+  height: 25px;
+  
+}
+
+.foot1{
+  justify-content: space-between;
+  padding : 67px 20px 30px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
