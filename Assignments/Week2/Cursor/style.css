@@ -394,17 +394,27 @@ ul {
   color: #999894;
 }
 .foot-btn1 {
+  
   border: 1px solid #26251f;
   background-color: #26251f;
+  height: 25px;
   width: 30px;
 }
+
+
+
 .last {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   justify-content: flex-end;
 }
 
 .lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #26251f;
   border-radius: 12px;
   color: #fff;
