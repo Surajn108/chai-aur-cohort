@@ -1,0 +1,77 @@
+:root {
+  --prime-colo: #18e299;
+  --sec-colo: #90ecc5;
+  --wood-smokw-black: #08090b;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 150;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  }
+
+.bg-image-hero {
+  z-index: -1;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -10rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 1260px;
+  background-image: url("https://www.mintlify.com/hero/bg-light.svg");
+  padding: 0px 0px 10px 24px;
+}
+.logo {
+  color: #fff;
+}
+
+.menu ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: #fff;
+}
+
+.nav-btn   {
+  display: flex;
+  padding-right: 20px;
+ 
+}
+
+.contact-btn , .start{
+    border-radius: 20px;
+    height: 35px;
+    width: 120px;
+}
+.contact-btn{
+    color: #fff;
+    border: 1px solid lab(100%,0,0);
+    background-color: lab(100%,0,0);
+}
+
+.hero1 {
+  min-height: 934px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("https://www.mintlify.com/hero/bg-light.svg");
+}
+.hero1 img {
+  border-radius: 20px;
+}
