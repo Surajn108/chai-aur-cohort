@@ -32,9 +32,13 @@ nav {
   top: 0;
   z-index: 100;
   width: 1260px;
-  background-image: url("https://www.mintlify.com/hero/bg-light.svg");
-  padding: 0px 0px 10px 24px;
+  /* background-image: url("https://www.mintlify.com/hero/bg-light.svg"); */
+  padding: 0px 0px 10px 10px;
+  
+  
+
 }
+
 .logo {
   color: #fff;
 }
@@ -59,7 +63,8 @@ nav {
 }
 .contact-btn{
     color: #fff;
-    border: 1px solid lab(100%,0,0);
+   
+    border: 1px solid lab(100%,0,  0/ 00.5px);
     background-color: lab(100%,0,0);
 }
 
@@ -70,8 +75,141 @@ nav {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  
   background-image: url("https://www.mintlify.com/hero/bg-light.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 .hero1 img {
   border-radius: 20px;
+}
+
+.new-btn button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #094868;
+    background-color: #094868;
+    height: 35px;
+
+    gap:10px;
+    color : #fff;
+}
+.new-btn button p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 50px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+.headline{
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    color: #fff;
+    gap:10px;
+    font-weight: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-start {
+    border-radius: 20px;
+    border: 2px solid #86bbb4;
+    background-color: #68ada7;
+    color: #86bbb4;
+
+}
+
+.mail{
+    margin: 30px 0 70px 0;
+    border: 1px solid none;
+    height: 35px;
+    color: #b5d8d5;
+    border: 1px solid none; 
+    background-color: #68ada7;
+    border-radius: 20px;
+    padding: 0 10px 0 10px ;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+
+}
+.mail-x{
+    
+    color: #b5d8d5;
+    border: 1px solid #68ada7; 
+    background-color: #68ada7;
+    border-radius: 20px;
+    outline-style: none;
+
+}
+
+.start-btn{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: 1px solid #68ada7; 
+    background-color: #fff;
+}
+
+.trusted-by{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+   
+    gap:10px;
+
+}
+
+.logos{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    height: 64px;
+    width: 250px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-txt1{
+    font-size: 40px;
+    padding: 40px 0 0 0;
+}
+
+.feature-cards {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+}
+.cardtxt2{
+    line-height: 25px;
+}
+
+.feature-card{
+    border: 1px solid #f6f7f6;
+    border-radius: 20px;
+    padding: 24px 24px 24px 24px;
 }
