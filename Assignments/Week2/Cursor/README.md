@@ -1,6 +1,7 @@
 # Cursor Page — Recreated Sections
 
-A static recreation of key sections from the [Cursor](https://cursor.com) marketing homepage.
+A static recreation of key sections from the [Cursor](https://cursor.com) marketing homepage. <br>
+Website is live on -:  https://cursorui-chai-aur-cohort-beige.vercel.app/
 
 ---
 
@@ -64,3 +65,23 @@ Body text uses CursorGothic when available; otherwise it falls back to the syste
 - `style.css` — Layout and typography (uses `--Prime_col` and `--Sec_col`)  
 - `assets/` — Images and logo  
 - `fonts/` — CursorGothic (woff2, woff) for local use  
+
+---
+
+## Pic
+
+![ss1](./assets/ss/ss1.png)
+
+![ss2](./assets/ss/ss2.png)
+
+![ss3](./assets/ss/ss3.png)
+
+![ss4](./assets/ss/ss4.png)
+
+![ss5](./assets/ss/ss5.png)
+
+![ss6](./assets/ss/ss7.png)
+
+![ss7](./assets/ss/ss7.png)
+
+![ss8](./assets/ss/ss8.png)
