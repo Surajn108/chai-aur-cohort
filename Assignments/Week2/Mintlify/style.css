@@ -61,6 +61,11 @@ nav {
     height: 35px;
     width: 120px;
 }
+.start{
+  color:#fff;
+  background-color: #000;
+  border-color: #000;
+}
 .contact-btn{
     color: #fff;
    
@@ -193,7 +198,7 @@ nav {
 }
 
 .feature-txt1{
-    font-size: 40px;
+    font-size: 30px;
     padding: 40px 0 0 0;
 }
 
@@ -212,4 +217,61 @@ nav {
     border: 1px solid #f6f7f6;
     border-radius: 20px;
     padding: 24px 24px 24px 24px;
+    margin-bottom: 24px;
+}
+
+.card-txt{
+  color: #0a8d5e;
+  font-weight: 400;
+  font-size: small;
+
+}
+
+.card-h2 h2{
+  font-weight:400;
+}
+.UIPreiview{
+
+}
+
+.UIPreiview-txt1{
+  font-size: 40px;
+  padding: 40px 0 0 0;
+}
+
+.UIPreiview-cards {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  border: 1px solid #f6f7f6;
+  border-radius: 20px;
+  padding: 24px 24px 24px 24px;
+  margin: 0 180px 140px 180px;
+}
+.UIPreiview-cardtxt2{
+  line-height: 25px;
+}
+
+.enterprise{
+  background-color: #f9f8f9;
+}
+.enterprise-card{
+  padding: 80px 80px 20px 120px;
+}
+.enterprise-txt-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.enterprise-btn{
+  width: 180px;
+}
+.partnership-control{
+  margin-top: 40px;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 60px;
+
 }
