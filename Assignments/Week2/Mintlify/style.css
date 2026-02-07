@@ -18,7 +18,6 @@ body {
     sans-serif;
 }
 
-
 header {
   position: fixed;
   width: 100%;
@@ -76,7 +75,7 @@ header {
   flex-shrink: 0;
 }
 
-.header-center-main {
+.h-center-menu {
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -90,7 +89,7 @@ header {
   cursor: pointer;
 }
 
-.right {
+.btn {
   width: 272.08px;
   height: 33.5px;
 
@@ -101,16 +100,16 @@ header {
   margin: 0;
 }
 
-.right-container {
-  width: 248.609px;
-  height: 33.5px;
+.btn-container {
+  width: 250px;
+  height: 35px;
   display: flex;
   gap: 0.5rem;
 }
 
-.right-container a {
+.btn-container a {
   text-decoration: none;
-  height: 33.5px;
+  height: 35x;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -122,18 +121,18 @@ header {
   font-weight: 500;
 }
 
-.right-btn-ghost {
-  width: 123.47px;
+.btn-btn-contact {
+  width: 123px;
   background-color: lab(100% 0 0 / 0.05);
   border: 1px solid lab(100% 0 0 / 0.05);
   color: #fff;
 }
 
-.right-btn-sec {
-  width: 117.14px;
-  background-color: #fff;
-  border: 1px solid #fff;
-  color: #08090a;
+.btn-btn-sec {
+  width: 118px;
+  background-color: #08090a;
+  border: 1px solid #08090a;
+  color: #fff;
 }
 
 nav.scrolled {
@@ -146,15 +145,15 @@ nav.scrolled .header-center-main {
   color: #08090a;
 }
 
-nav.scrolled .right-btn-ghost {
+nav.scrolled .btn-btn-ghost {
   color: #08090a;
   background-color: rgba(8, 9, 10, 0.05);
 }
 
-nav.scrolled .right-btn-sec {
+nav.scrolled .btn-btn-sec {
   background-color: #08090a;
   color: #fff;
-  border:none;
+  border: none;
 }
 
 .nav-logo-wrap {
@@ -197,7 +196,7 @@ nav.scrolled .nav-logo-wrap .nav-logo-default {
 }
 
 .hero1 {
-  min-height: 934px;
+  min-height: 935px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -368,7 +367,15 @@ nav.scrolled .nav-logo-wrap .nav-logo-default {
 .UIPreiview-cardtxt2 {
   line-height: 25px;
 }
-
+.explore-btn{
+  
+  height: 30px;
+  width: 170px;
+  background-color: #08090a;
+  border: 1px solid #08090a;
+  border-radius: 12px;
+  color: #fff;
+}
 .enterprise {
   background-color: #f9f8f9;
 }
@@ -500,8 +507,8 @@ nav.scrolled .nav-logo-wrap .nav-logo-default {
   width: 1px;
   height: 250px;
   /* color: #f6f7f6; */
-  color: #000;
-  background-color: #000;
+  color: #f6f7f6;
+  background-color: #f6f7f6;
 }
 
 .hor-line {
@@ -565,7 +572,8 @@ footer {
 .footer-container-f-company {
   display: flex;
   justify-content: center;
-  gap: calc(var(--spacing) * 4);
+  align-items: center;
+  gap: 10px;
   margin-left: 775px;
   width: 97px;
   height: 20px;
@@ -609,15 +617,9 @@ footer {
   text-decoration: none;
   color: #08090a;
   white-space: nowrap;
-  --tw-font-weight: var(--font-weight-medium);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--text-sm);
   line-height: 150%;
-  padding-block: calc(var(--spacing) * 1.5);
-  padding-inline: calc(var(--spacing) * 3);
   background-color: transparent;
   border: 1px solid transparent;
-  gap: calc(var(--spacing) * 1.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -627,7 +629,7 @@ footer {
 
 .footer-container-card a:hover {
   background-color: #08090a08;
-  border-radius: 3.40282e38px;
+  border-radius: 3px;
 }
 
 .footer-container-card ul {
@@ -665,9 +667,6 @@ footer {
   color: #08090a;
   text-transform: capitalize;
   text-align: center;
-  --tw-font-weight: var(--font-weight-medium);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--text-sm);
   line-height: 150%;
 }
 
@@ -676,10 +675,6 @@ footer {
   display: grid;
   isolation: isolate;
   position: relative;
-  --tw-scale-x: 125%;
-  --tw-scale-y: 125%;
-  --tw-scale-z: 125%;
-  scale: var(--tw-scale-x) var(--tw-scale-y);
   place-items: center;
   width: 60px;
   height: 60px;
@@ -715,15 +710,10 @@ footer {
   outline-offset: 2px;
   color: #08090a;
   white-space: nowrap;
-  --tw-font-weight: var(--font-weight-medium);
-  font-weight: var(--font-weight-medium);
   font-size: 13px;
   line-height: 150%;
-  padding-block: calc(var(--spacing) * 1);
-  padding-inline: calc(var(--spacing) * 3);
   background-color: #08090a08;
   border-radius: 3.40282e38px;
-  gap: calc(var(--spacing) * 1.5);
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -765,13 +755,10 @@ footer {
   outline-offset: 2px;
   color: #08090a;
   white-space: nowrap;
-  --tw-font-weight: var(--font-weight-medium);
-  font-weight: var(--font-weight-medium);
   font-size: 15px;
   padding: calc(var(--spacing) * 0);
   background-color: transparent;
-  border-radius: 3.40282e38px;
-  gap: calc(var(--spacing) * 1.5);
+  border-radius: 3.40282e38px;  
   display: inline-flex;
   flex-direction: row;
   align-items: center;
