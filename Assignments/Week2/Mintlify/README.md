@@ -17,12 +17,14 @@ A simple Mintlify website UI clone built using HTML & CSS.
 	•	Flexbox / Grid
 
 📂 Setup
+
+Live on -:
+ ```https://mintlifyui.vercel.app```
 ```bash
 git clone https://github.com/Surajn108/chai-aur-cohort/tree/d241b896421efb638a252a3c730d4423fd858569/Assignments/Week2/Mintlify
-
-cd mintlify-clone
-open index.html
 ```
+open index.html file
+
 
 👨‍💻 Author
 
