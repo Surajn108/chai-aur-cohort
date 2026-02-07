@@ -362,6 +362,42 @@ nav {
   justify-content: center;
   align-items: center;
 
-
 }
 
+.demo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.d-txt1{
+  font-size: 30px;
+
+  line-height: 10px;
+  
+}
+.start-demo-btn{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.start1{
+  border: 1px solid #000;
+  height: 40px;
+  border-radius: 24px;
+  color:#fff;
+  background-color: #000;
+    width: 150px;
+}
+
+.demo-btn{
+  border: 1px solid #f6f7f6;
+  height: 40px;
+  border-radius: 24px;
+  color:#000;
+  background-color: #fff;
+  width: 130px;
+}
