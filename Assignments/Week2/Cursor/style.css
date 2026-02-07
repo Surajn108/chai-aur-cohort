@@ -3,14 +3,7 @@
   --Sec_col: #1b1813;
 }
 
-@font-face {
-  font-family: "CursorGothic";
-  src: url("/fonts/cursorgothic.woff2") format("woff2"),
-    url("/fonts/cursorgothic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+
 
 body {
   background-color: var(--Prime_col);
@@ -21,9 +14,6 @@ body {
   box-sizing: border-box;
   font-weight: 150;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  font-family: "CursorGothic", "CursorGothic Fallback", system-ui,
-    Helvetica Neue, Helvetica, Arial, sans-serif;
-  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 .navbar {
