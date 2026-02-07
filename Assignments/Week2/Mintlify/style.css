@@ -252,9 +252,7 @@ nav {
 .card-h2 h2{
   font-weight:400;
 }
-.UIPreiview{
 
-}
 
 .UIPreiview-txt1{
   font-size: 40px;
@@ -331,6 +329,39 @@ nav {
   align-items: center;
 }
 
-.read-story{
- 
+.customer-card{
+  padding-left: 350px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.card img{
+  border: 1px solid none;
+  border-radius: 12px;
+}
+.c-txt1{
+  font-size: 20px;
+  font-weight: 50;
+}
+
+.c-txt1{
+  font-size: 20px;
+  
+}
+
+.c-txt2{
+  line-height: 20px;
+  padding: 10px 0 10px 0;
+}
+.slide-btn{
+  margin: 40px 0 100px 0 ;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
