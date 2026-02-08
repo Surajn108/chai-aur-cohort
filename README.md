@@ -34,11 +34,11 @@
 
 ## Documentation
 
-- ### [Assignments : learn](./assignments/README.md)
+- ### [Assignments : learn](./Assignments/README.md)
 
 - ### [Projects : apply](./projects/README.md)
 
-- ### [Blogs : showcase](./blogs/README.md)
+- ### [Blogs : showcase](./Blogs/README.md)
 </br>
 
 ## Tech Stack
