@@ -1,63 +1,117 @@
 <a href="https://courses.chaicode.com/">
-  <p align=center>
-    <img width = "800px" alt="WebDev Cohort 2026 - ChaiAurCode" src="./assets/WebDev26.jpeg">
-  <p>
+  <p align="center">
+    <img width="800px" alt="WebDev Cohort 2026 - ChaiAurCode" src="./assets/WebDev26.jpeg">
+  </p>
 </a>
-<h1 align="center">Chai Aur Cohort</h1>
 
-<!-- Social Media Links -->
-<div align= center>
+<h1 align="center">☕ Chai Aur Cohort</h1>
 
-[![Twitter Badge](https://img.shields.io/badge/-@SurajNavale108-1ca0f1?style=social&labelColor=red&logo=x&logoColor=black&link=https://twitter.com/SurajNavale108)](https://twitter.com/SurajNavale108)&nbsp;&nbsp;
-[![Linkedin Badge](https://img.shields.io/badge/@suraj-navale-2203492a6/)](https://www.linkedin.com/in/suraj-navale-2203492a6/)&nbsp;&nbsp;
-[![Mail Badge](https://img.shields.io/badge/-surajnawale4056@gmail.com-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=pink)](mailto:surajnawale4056@gmail.com)&nbsp;&nbsp;
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)&nbsp;&nbsp;
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+<p align="center">
+  Documenting my Full-Stack Web Development Journey 🚀
+</p>
 
-</div>
+---
 
-<br>
+## 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://twitter.com/SurajNavale108">
+  <img src="https://img.shields.io/badge/Twitter-@SurajNavale108-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/suraj-navale-2203492a6/">
+  <img src="https://img.shields.io/badge/LinkedIn-Suraj%20Navale-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:surajnawale4056@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+## 📜 Repository Badges
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-FE5196?logo=conventionalcommits&logoColor=white"/>
+<img src="https://img.shields.io/badge/License-MIT-green.svg"/>
+
+</p>
+
+---
+
+## 🧭 Quick Navigation
 
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
   <a href="#documentation"><strong>Documentation</strong></a> ·
   <a href="#tech-stack"><strong>Tech Stack</strong></a> · 
-  <a href="#contributing"><strong>Contributing</strong></a> 
+  <a href="#contributing"><strong>Contributing</strong></a>
 </p>
-</br>
 
-## Introduction
+---
 
-**Chai Aur Cohort** is a full-stack web development course by **[Hitesh Choudhary](https://www.youtube.com/@chaiaurcode)** & **[Piyush Garg](https://www.youtube.com/@piyushgargdev)**. From basics to full-stack ninja, this repository documents my in-depth learning journey within the program.
+## 📖 Introduction
 
-</br>
+**Chai Aur Cohort** is a full-stack web development course by  
+**[Hitesh Choudhary](https://www.youtube.com/@chaiaurcode)** &  
+**[Piyush Garg](https://www.youtube.com/@piyushgargdev)**.
 
-## Documentation
+From fundamentals to advanced full-stack systems, this repository documents my **hands-on learning journey**, assignments, projects, and technical write-ups throughout the program.
 
-- ### [Assignments : learn](./Assignments)
+---
 
-- ### [Projects : apply](./Projects/README.md)
+## 🗂️ Documentation
 
-- ### [Blogs : showcase](./Blogs/README.md)
-</br>
+| Section | Description |
+|--------|-------------|
+| 📘 **[Assignments](./Assignments)** | Practice & concept building |
+| 🛠️ **[Projects](./Projects/README.md)** | Real-world implementations |
+| ✍️ **[Blogs](./Blogs/README.md)** | Knowledge sharing & deep dives |
 
-## Tech Stack
+---
 
-- [Git](https://git-scm.com/) – versioning
+## 🧰 Tech Stack
 
-- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) – structuring
+<p>
 
-- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) – modular css
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 
-</br>
+</p>
 
-## Contributing
+- **Git** → Version Control  
+- **HTML5** → Structure & Semantics  
+- **CSS3** → Styling & Layout Systems  
+
+---
+
+## 🤝 Contributing
 
 Contributions are always welcome!
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for ways to get started.
-</br></br>
+If you’d like to improve anything:
 
-## License
+1. Fork the repo  
+2. Create a feature branch  
+3. Submit a PR  
 
-This project is licensed under the [MIT License](./LICENSE). &nbsp;Feel free to learn, add upon, and share my work!
+See **[CONTRIBUTING.md](./CONTRIBUTING.md)** for detailed guidelines.
+
+---
+
+## 📄 License
+
+This project is licensed under the **[MIT License](./LICENSE)**.
+
+Feel free to learn, build upon, and share — knowledge grows when shared 🌱
+
+---
+
+<p align="center">
+  ⭐ Star the repo if you find it helpful!
+</p>
